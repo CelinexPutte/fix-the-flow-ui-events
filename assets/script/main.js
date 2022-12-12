@@ -36,3 +36,13 @@ sprint.addEventListener('animationend', rotateHandler)
 function rotateHandler() {
   sprint.classList.toggle('rotate')
 }
+
+// Wireflow
+let wireflow = document.querySelector('a:nth-of-type(14)')
+
+wireflow.addEventListener('mouseover', scaleHover)
+wireflow.addEventListener('mouseout', scaleHover)
+
+function scaleHover() {
+  wireflow.classList.toggle('scale')
+}

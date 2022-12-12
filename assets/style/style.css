@@ -102,3 +102,23 @@ a:nth-of-type(12) {
   }
 }
 
+/* scale */
+.scale {
+  animation-name: scale;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes scale {
+  0% {
+    scale: 1;
+  }
+
+  50% {
+    scale: 1.2;
+  }
+
+  100% {
+    scale: 1;
+  }
+}
