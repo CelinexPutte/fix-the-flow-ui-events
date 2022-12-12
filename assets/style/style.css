@@ -79,3 +79,9 @@ a:nth-of-type(12) {
 }
 
 /* Jouw animaties */
+/* change background */
+.background {
+  background-color: var(--highlight-secondary);
+  border: var(--line) solid var(--secondary);
+  color: var(--secondary);
+}
