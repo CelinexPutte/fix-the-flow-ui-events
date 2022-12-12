@@ -18,3 +18,11 @@ function backgroundChangeHover() {
   frontend.classList.toggle('background')
 }
 
+// interface
+let interface = document.querySelector('a:nth-of-type(10)')
+
+interface.addEventListener('click', backgroundChangeClick)
+
+function backgroundChangeClick() {
+  interface.classList.toggle('background')
+}
