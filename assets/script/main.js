@@ -18,11 +18,21 @@ function backgroundChangeHover() {
   frontend.classList.toggle('background')
 }
 
-// interface
+// Interface
 let interface = document.querySelector('a:nth-of-type(10)')
 
 interface.addEventListener('click', backgroundChangeClick)
 
 function backgroundChangeClick() {
   interface.classList.toggle('background')
+}
+
+// Sprint 5
+let sprint = document.querySelector('a:nth-of-type(5)')
+
+sprint.addEventListener('dblclick', rotateHandler)
+sprint.addEventListener('animationend', rotateHandler)
+
+function rotateHandler() {
+  sprint.classList.toggle('rotate')
 }
