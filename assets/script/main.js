@@ -46,3 +46,13 @@ wireflow.addEventListener('mouseout', scaleHover)
 function scaleHover() {
   wireflow.classList.toggle('scale')
 }
+
+// Code
+let code = document.querySelector('a:nth-of-type(20)')
+
+code.addEventListener('mouseover', shakeHover)
+code.addEventListener('mouseout', shakeHover)
+
+function shakeHover() {
+  code.classList.toggle('shake')
+}

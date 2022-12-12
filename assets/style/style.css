@@ -113,12 +113,35 @@ a:nth-of-type(12) {
   0% {
     scale: 1;
   }
-
   50% {
     scale: 1.2;
   }
-
   100% {
     scale: 1;
+  }
+}
+
+/* Shake */
+.shake {
+  animation-name: shake;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes shake {
+  0% {
+    rotate: 0deg;
+  }
+  25% {
+    rotate: 15deg;
+  }
+  50% {
+    rotate: -15deg;
+  }
+  75% {
+    rotate: 7deg;
+  }
+  100% {
+    rotate: 0deg;
   }
 }
