@@ -91,6 +91,9 @@ a:nth-of-type(12) {
   animation-name: rotate;
   animation-duration: 1.5s;
   animation-iteration-count: 1;
+  background-color: var(--highlight-secondary);
+  border: var(--line) solid var(--secondary);
+  color: var(--secondary);
 }
 
 @keyframes rotate {
@@ -107,6 +110,9 @@ a:nth-of-type(12) {
   animation-name: scale;
   animation-duration: 1s;
   animation-iteration-count: 1;
+  background-color: var(--highlight-secondary);
+  border: var(--line) solid var(--secondary);
+  color: var(--secondary);
 }
 
 @keyframes scale {
@@ -126,6 +132,9 @@ a:nth-of-type(12) {
   animation-name: shake;
   animation-duration: 1.5s;
   animation-iteration-count: 1;
+  background-color: var(--highlight-secondary);
+  border: var(--line) solid var(--secondary);
+  color: var(--secondary);
 }
 
 @keyframes shake {
