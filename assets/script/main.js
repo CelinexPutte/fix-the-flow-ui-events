@@ -75,3 +75,23 @@ flow.addEventListener('click', moveClick)
 function moveClick() {
   flow.classList.toggle('move')
 }
+
+// &
+let teken = document.querySelector('a:nth-of-type(3)')
+
+teken.addEventListener('dblclick', zoomDubbleClick)
+teken.addEventListener('animationend', zoomDubbleClick)
+
+function zoomDubbleClick() {
+  teken.classList.toggle('zoom')
+}
+
+// Navigation
+let navigation = document.querySelector('a:nth-of-type(19)')
+
+navigation.addEventListener('mouseover', jumpClick)
+navigation.addEventListener('animationend', jumpClick)
+
+function jumpClick() {
+  navigation.classList.toggle('jumping')
+}
