@@ -41,7 +41,7 @@ function rotateHandler() {
 let wireflow = document.querySelector('a:nth-of-type(14)')
 
 wireflow.addEventListener('mouseover', scaleHover)
-wireflow.addEventListener('mouseout', scaleHover)
+wireflow.addEventListener('animationend', scaleHover)
 
 function scaleHover() {
   wireflow.classList.toggle('scale')
@@ -51,7 +51,7 @@ function scaleHover() {
 let labels = document.querySelector('a:nth-of-type(17)')
 
 labels.addEventListener('mouseover', shakeHover)
-labels.addEventListener('mouseout', shakeHover)
+labels.addEventListener('animationend', shakeHover)
 
 function shakeHover() {
   labels.classList.toggle('shake')
