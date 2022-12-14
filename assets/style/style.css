@@ -79,7 +79,7 @@ a:nth-of-type(12) {
 }
 
 /* Jouw animaties */
-a:nth-of-type(1), a:nth-of-type(10), a:nth-of-type(5), a:nth-of-type(14), a:nth-of-type(20), a:nth-of-type(17) {
+a:nth-of-type(1), a:nth-of-type(10), a:nth-of-type(5), a:nth-of-type(14), a:nth-of-type(20), a:nth-of-type(17), a:nth-of-type(8) {
   background-color: var(--highlight-primary);
   border: solid var(--line) var(--secondary);
   color: var(--secondary);
@@ -178,4 +178,13 @@ a.background {
   100% {
     transform: translateX(0) translateY(0);
   }
+}
+
+/* Move */
+a:nth-of-type(8) {
+  transition: 1s;
+}
+
+.move {
+  transform: translateY(20rem);
 }

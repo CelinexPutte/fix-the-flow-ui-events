@@ -66,3 +66,12 @@ code.addEventListener('animationend', hangClick)
 function hangClick() {
   code.classList.toggle('hang')
 }
+
+// Flow
+let flow = document.querySelector('a:nth-of-type(8)')
+
+flow.addEventListener('click', moveClick)
+
+function moveClick() {
+  flow.classList.toggle('move')
+}
