@@ -47,12 +47,12 @@ function scaleHover() {
   wireflow.classList.toggle('scale')
 }
 
-// Code
-let code = document.querySelector('a:nth-of-type(20)')
+// Labels
+let labels = document.querySelector('a:nth-of-type(17)')
 
-code.addEventListener('mouseover', shakeHover)
-code.addEventListener('mouseout', shakeHover)
+labels.addEventListener('mouseover', shakeHover)
+labels.addEventListener('mouseout', shakeHover)
 
 function shakeHover() {
-  code.classList.toggle('shake')
+  labels.classList.toggle('shake')
 }
