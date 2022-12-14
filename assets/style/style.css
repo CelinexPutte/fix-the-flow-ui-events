@@ -155,7 +155,7 @@ a.background {
 /* Hang */
 .hang {
   animation-name: hang;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-iteration-count: 1;
 }
 
@@ -163,11 +163,19 @@ a.background {
   0% {
     transform: translateY(0);
   }
+  25%{
+    transform: translateX(2.8rem) translateY(2.5rem);
+    rotate: 110deg;
+  }
+  40%{
+    transform: translateX(2rem) translateY(2rem);
+    rotate: 80deg;
+  }
   50%{
-    transform:translateX(2rem) translateY(2rem);
+    transform: translateX(2.2rem) translateY(2.2rem);
     rotate: 90deg;
   }
   100% {
-    transform: translateY(0);
+    transform: translateX(0) translateY(0);
   }
 }

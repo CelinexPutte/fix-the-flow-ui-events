@@ -56,3 +56,13 @@ labels.addEventListener('mouseout', shakeHover)
 function shakeHover() {
   labels.classList.toggle('shake')
 }
+
+// Code
+let code = document.querySelector('a:nth-of-type(20)')
+
+code.addEventListener('click', hangClick)
+code.addEventListener('animationend', hangClick)
+
+function hangClick() {
+  code.classList.toggle('hang')
+}
