@@ -95,3 +95,13 @@ navigation.addEventListener('animationend', jumpClick)
 function jumpClick() {
   navigation.classList.toggle('jumping')
 }
+
+// Userflow
+let userflow = document.querySelector('a:nth-of-type(13)')
+
+userflow.addEventListener('focus', keyboardFocus)
+userflow.addEventListener('blur', keyboardFocus)
+
+function keyboardFocus() {
+  userflow.classList.toggle('background')
+}
